@@ -12,7 +12,7 @@ The rule of thumb is that we (**corefx**) review every API that is being added t
 
 ## Steps
 
-1. **Requester files an issue**. The issue description should contain a speclet that represents a sketch of the new APIs, including samples on how the APIs are being used. The goal isn't to get a complete API list, but a good handle on how the new APIs would roughly look like and in what scenarios they are being used. Here is [a good example](https://github.com/dotnet/corefx/issues/271).
+1. **Requester files an issue**. The issue description should contain a speclet that represents a sketch of the new APIs, including samples on how the APIs are being used. The goal isn't to get a complete API list, but a good handle on how the new APIs would roughly look like and in what scenarios they are being used. Here is a [good example](https://github.com/dotnet/corefx/issues/271).
 
 2. **We assign an owner**. We'll assign a dedicated owner from our side that
 sponsors the issue. This is usually [the area owner](issue-guide.md#areas) for which the API proposal or design change request was filed for.
@@ -25,7 +25,7 @@ APIs and some code samples that show how it should be used. If changes are neces
 
 4. **Owner makes decision**. When the owner believes enough information is available to make a decision, she will update the issue accordingly:
 
-    * **Mark for review**. If the owner believes the proposal is actionable, she will label the issue with `api-ready-for-review`.
+    * **Mark for review**. If the owner believes the proposal is actionable, she will label the issue with `api-ready-for-review`. Here is [a good example](https://github.com/dotnet/corefx/issues/4547) of as strong API proposal.
     * **Close as not actionable**. In case the issue didn't get enough traction to be distilled into a concrete proposal, she will close the issue.
     * **Close as won't fix as proposed**. Sometimes, the issue that is raised is a good one but the owner thinks the concrete proposal is not the right way to tackle the problem. In most cases, the owner will try to steer the discussion in a direction that results in a design that we believe is appropriate. However, for some proposals the problem is at the heart of the design which can't easily be changed without starting a new proposal. In those cases, the owner will close the issue and explain the issue the design has.
     * **Close as won't fix**. Similarly, if proposal is taking the product in a direction we simply don't want to go, the issue might also get closed. In that case, the problem isn't the proposed design but in the issue itself.
